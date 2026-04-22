@@ -1,0 +1,5 @@
+﻿.venv/
+__pycache__/
+*.pyc
+lib/openpyxl/
+lib/et_xmlfile/
