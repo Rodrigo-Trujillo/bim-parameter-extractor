@@ -1,0 +1,36 @@
+{
+  "rules": [
+    {
+      "category": "Columns",
+      "parameter": "Mark",
+      "check": "not_null",
+      "description": "All columns must have a Mark value"
+    },
+    {
+      "category": "Columns",
+      "parameter": "Length",
+      "check": "greater_than",
+      "value": 0,
+      "description": "Column length must be greater than 0"
+    },
+    {
+      "category": "Beams",
+      "parameter": "Mark",
+      "check": "not_null",
+      "description": "All beams must have a Mark value"
+    },
+    {
+      "category": "Beams",
+      "parameter": "Length",
+      "check": "greater_than",
+      "value": 0,
+      "description": "Beam length must be greater than 0"
+    },
+    {
+      "category": "Walls",
+      "parameter": "Mark",
+      "check": "not_null",
+      "description": "All walls must have a Mark value"
+    }
+  ]
+}
